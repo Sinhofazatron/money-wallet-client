@@ -1,27 +1,80 @@
-# React + TypeScript + Vite
+<h1 align="center">Money Wallet</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<p align="center">
+  
+<img src="https://img.shields.io/appveyor/ci/gruntjs/grunt.svg">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://img.shields.io/badge/made%20by-Sinhofazatron-blue.svg" >
 
-## Expanding the ESLint configuration
+<img src="https://img.shields.io/badge/React-18.2.0-green.svg">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<img src="https://img.shields.io/badge/Redux--toolkit-8.1.2-blue.svg">
 
-- Configure the top-level `parserOptions` property like this:
+<img src="https://img.shields.io/badge/axios-1.5.0-green.svg">
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+<img src="https://img.shields.io/badge/react%20toastify-blue.svg">
+
+</p>
+
+<p align="center">
+   
+<img align="center" src="./public/1.png" width="90%">
+
+</p>
+
+## Description
+
+Money Wallet - is an application created to keep records of income and expenses of funds
+
+## Authentication
+
+<p align="center">
+   
+<img align="center" src="./public/2.png" width="90%">
+
+</p>
+
+Registration is required to use the application. Validation of forms takes place on the server side
+
+## Categories
+
+<p align="center">
+   
+<img align="center" src="./public/3.png" width="90%">
+
+</p>
+
+In the categories section, you can create and edit income/expense categories
+
+## Transactions
+
+On this page you can perform an operation with income or expenses and view the total income
+
+<p align="center">
+   
+<img align="center" src="./public/4.png" width="90%">
+
+</p>
+
+## About the project
+
+#### Frontend stack: 
+
+- React
+- TypeScript
+
+#### Backend stack: 
+
+- NestJS 
+- TypeORM 
+- PostgreSQL
+
+## Project setup
+
+```
+npm install
+npm run start
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
